@@ -1,0 +1,35 @@
+body {
+  background-color: black !important;
+  height: 100vh !important;
+}
+
+#scoreboard {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#gameboard {
+}
+
+.gamearea {
+  background-color: teal !important;
+}
+
+#gamebuttons {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+button.tic {
+  width: 100%;
+  height: 250px;
+  font-size: 1000%;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+p.playerscore {
+  margin-bottom: 0 !important;
+}
