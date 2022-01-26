@@ -15,97 +15,68 @@
       <div
         class="container d-flex justify-content-between align-items-center mx-auto"
         id="scoreboard"
+      >
+        <div
+          class="row d-flex justify-content-around align-items-center mx-auto"
         >
-        <div class="row d-flex justify-content-around align-items-center mx-auto">
-            <div class="col">
-                <p class="playerscore">
-                    Player 1 score: 
-                </p>
-            </div>
+          <div class="col">
+            <p class="playerscore">Player 1 score:</p>
+          </div>
         </div>
-        <div class="row d-flex justify-content-around align-items-center mx-auto">
-            <div class="col">
-                <p class="playerscore">
-                    Player 2 score: 
-                </p>
-            </div>
+        <div
+          class="row d-flex justify-content-around align-items-center mx-auto"
+        >
+          <div class="col">
+            <p class="playerscore">Player 2 score:</p>
+          </div>
         </div>
       </div>
-      <div 
-      class="row d-flex justify-content-around align-items-center mx-auto"
-      id="gamebuttons">
+      <div
+        class="row d-flex justify-content-around align-items-center mx-auto"
+        id="gamebuttons"
+      >
         <button class="w-25 btn btn-success">Reset</button>
         <button class="w-25 btn btn-danger">New Game</button>
       </div>
-      <div 
-      class="align-items-center w-100 container justify-content-center"
-      id="gameboard">
+      <div
+        class="align-items-center w-100 container justify-content-center"
+        id="gameboard"
+      >
         <div class="row">
-            <div class="col no-padding border rounded">
-                <button class="tic btn btn-secondary"></button>            
-            </div>
-            <div class="col no-padding border rounded">
-                <button class="tic btn btn-secondary"></button>            
-            </div>
-            <div class="col no-padding border rounded">
-                <button class="tic btn btn-secondary">X</button>            
-            </div>
+          <div class="col no-padding border rounded">
+            <button class="tic btn btn-secondary field" id="1"></button>
+          </div>
+          <div class="col no-padding border rounded">
+            <button class="tic btn btn-secondary field" id="2"></button>
+          </div>
+          <div class="col no-padding border rounded">
+            <button class="tic btn btn-secondary field" id="3"></button>
+          </div>
         </div>
         <div class="row">
-            <div class="col no-padding border rounded">
-                <button class="tic btn btn-secondary"></button>            
-            </div>
-            <div class="col no-padding border rounded">
-                <button class="tic btn btn-secondary">O</button>            
-            </div>
-            <div class="col no-padding border rounded">
-                <button class="tic btn btn-secondary">X</button>            
-            </div>
+          <div class="col no-padding border rounded">
+            <button class="tic btn btn-secondary field" id="field4"></button>
+          </div>
+          <div class="col no-padding border rounded">
+            <button class="tic btn btn-secondary field" id="field5"></button>
+          </div>
+          <div class="col no-padding border rounded">
+            <button class="tic btn btn-secondary field" id="field6"></button>
+          </div>
         </div>
         <div class="row">
-            <div class="col no-padding border rounded">
-                <button class="tic btn btn-secondary"></button>            
-            </div>
-            <div class="col no-padding border rounded">
-                <button class="tic btn btn-secondary"></button>            
-            </div>
-            <div class="col no-padding border rounded">
-                <button class="tic btn btn-secondary">X</button>            
-            </div>
+          <div class="col no-padding border rounded">
+            <button class="tic btn btn-secondary field" id="field7"></button>
+          </div>
+          <div class="col no-padding border rounded">
+            <button class="tic btn btn-secondary field" id="field8"></button>
+          </div>
+          <div class="col no-padding border rounded">
+            <button class="tic btn btn-secondary field" id="field9"></button>
+          </div>
         </div>
       </div>
-    </d>
-    <!-- <div class="container h-100">
-      <div class="row d-flex justify-content-center align-items-center h-100">
-        <div
-          class="justify-content-center align-items-center w-50 mx-auto shadow-lg"
-          id="login"
-        >
-          <form class="m-5">
-            <div class="form-group my-5">
-              <input
-                type="text"
-                class="form-control form-control-lg"
-                placeholder="Username"
-              />
-            </div>
-            <div class="form-group my-5">
-              <input
-                type="password"
-                class="form-control form-control-lg"
-                placeholder="Password"
-              />
-            </div>
-            <button type="submit" class="btn btn-success w-100">LOGIN</button>
-            <div class="text-center m-3">
-              <p>
-                Not registered?
-                <a href="https://www.google.com">Create an account</a>
-              </p>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div> -->
+    </div>
   </body>
+  <script src="/TTTLogic.js"></script>
 </html>
