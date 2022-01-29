@@ -20,14 +20,14 @@
           class="row d-flex justify-content-around align-items-center mx-auto"
         >
           <div class="col">
-            <p class="playerscore">Player 1 score:</p>
+            <p class="playerscore" id="p1score"></p>
           </div>
         </div>
         <div
           class="row d-flex justify-content-around align-items-center mx-auto"
         >
           <div class="col">
-            <p class="playerscore">Player 2 score:</p>
+            <p class="playerscore" id="p2score"></p>
           </div>
         </div>
       </div>
@@ -35,45 +35,21 @@
         class="row d-flex justify-content-around align-items-center mx-auto"
         id="gamebuttons"
       >
-        <button class="w-25 btn btn-success">Reset</button>
-        <button class="w-25 btn btn-danger">New Game</button>
+        <button class="w-25 btn btn-success" id="reset">Reset</button>
+        <button class="w-25 btn btn-danger" id="newgame">New Game</button>
       </div>
       <div
         class="align-items-center w-100 container justify-content-center"
         id="gameboard"
+      ></div>
+      <div
+        class="align-items-center w-100 container justify-content-center"
+        id="gameboard"
       >
-        <div class="row">
-          <div class="col no-padding border rounded">
-            <button class="tic btn btn-secondary field" id="1"></button>
-          </div>
-          <div class="col no-padding border rounded">
-            <button class="tic btn btn-secondary field" id="2"></button>
-          </div>
-          <div class="col no-padding border rounded">
-            <button class="tic btn btn-secondary field" id="3"></button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col no-padding border rounded">
-            <button class="tic btn btn-secondary field" id="field4"></button>
-          </div>
-          <div class="col no-padding border rounded">
-            <button class="tic btn btn-secondary field" id="field5"></button>
-          </div>
-          <div class="col no-padding border rounded">
-            <button class="tic btn btn-secondary field" id="field6"></button>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col no-padding border rounded">
-            <button class="tic btn btn-secondary field" id="field7"></button>
-          </div>
-          <div class="col no-padding border rounded">
-            <button class="tic btn btn-secondary field" id="field8"></button>
-          </div>
-          <div class="col no-padding border rounded">
-            <button class="tic btn btn-secondary field" id="field9"></button>
-          </div>
+        <div
+          class="row d-flex justify-content-around align-items-center mx-auto pt-5 pb-5"
+        >
+          <p id="gameinfo"></p>
         </div>
       </div>
     </div>
